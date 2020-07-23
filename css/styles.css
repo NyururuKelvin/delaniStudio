@@ -1,3 +1,10 @@
+#logo{
+    margin-top: 18%;
+}
+#mouse{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
 .home {
     background-image: url("/images/h_img.jpg");
     background-size: cover;
