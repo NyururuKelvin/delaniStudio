@@ -2,4 +2,10 @@
     background-image: url("/images/h_img.jpg");
     background-size: cover;
     height: 100vh;
+    text-align: center;
+    color: aliceblue;
+}
+.about{
+    text-align: center;
+    margin-top: 2%;
 }
