@@ -19,15 +19,21 @@
 .services{
     background-image: url("/images/s_image.jpg");
     background-repeat: no-repeat;
-  background-size: cover;
+    background-size: cover;
     text-align: center;
     color: aliceblue;
 }
 .work{
     text-align: center;
 }
+.details{
+    display: none;
+}
 .portfolio{
     text-align: center;
+}
+.description{
+    display: none;
 }
 .img_wrap {
     position: relative;
