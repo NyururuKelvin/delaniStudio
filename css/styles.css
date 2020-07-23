@@ -9,3 +9,10 @@
     text-align: center;
     margin-top: 2%;
 }
+.services{
+    background-image: url("/images/s_image.jpg");
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    color: aliceblue;
+}
