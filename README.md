@@ -4,7 +4,7 @@
 ## Description
 The website reveals about the studio, their services, what they do and their portfolio and how you can reach them.
 
-![picture].(images/h_img.jpg)
+![picture](images/h_img.jpg)
 
 ## BDD
 * Visit the site.
