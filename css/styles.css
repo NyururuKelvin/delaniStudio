@@ -29,6 +29,9 @@
 .work{
     text-align: center;
 }
+.info{
+    display: none;
+  }
 .details{
     display: none;
 }
