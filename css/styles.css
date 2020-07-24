@@ -39,20 +39,13 @@
 .portfolio{
     text-align: center;
 }
-.description{
-    display: none;
-}
 .img_wrap {
     position: relative;
     overflow: hidden;
     margin-bottom: 5%;
-}
-.description_show {
-    visibility: visible;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.5);
   }
-  .description {
+   
+  .img_description {
     position: absolute;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
@@ -67,6 +60,12 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+   
+  .img_description_show {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 .contacts{
     background-image: url("/images/c_image.jpg");

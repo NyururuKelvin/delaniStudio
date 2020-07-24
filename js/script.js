@@ -13,8 +13,8 @@ $(document).ready(function(){
      });
 
      $(".img_wrap").hover(function () {
-        $(this).find("div").toggleClass();
-      });
+      $(this).find("div").toggleClass("img_description_show");
+    });
 
       $("#submit").click(function () {
         event.preventDefault()
@@ -23,10 +23,10 @@ $(document).ready(function(){
         var message = $("#message").val();
   
         if (name == '' || email == '' || message == '') {
-          $("#post").html("Please fill all the fields");
+          $("#post").html("Please fill in all the fields");
           $(".post").css('background-color', 'red')
         } else {
-          $("#post").html(name + " we have received your message. Thank you for your feedback.")
+          $("#post").html("Hey " + name + "!" + " we have received your message. Thank you for your feedback.")
           $(".post").css('background-color', 'green')
           $("form")[0].reset();
         }
