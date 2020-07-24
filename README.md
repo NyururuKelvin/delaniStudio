@@ -4,7 +4,7 @@
 ## Description
 The website reveals about the studio, their services, what they do and their portfolio and how you can reach them.
 
-![picture](/images/Delani Studio.jpg)
+![picture](.images/Delani Studio.jpg)
 
 ## BDD
 * Visit the site.
