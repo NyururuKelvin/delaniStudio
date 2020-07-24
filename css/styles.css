@@ -87,6 +87,9 @@
     background: transparent;
     color: aliceblue;
   }
+  .post{
+      margin-bottom: 15px;
+  }
   
 footer{
     text-align: center;
