@@ -26,11 +26,19 @@
     text-align: center;
     color: aliceblue;
 }
+.services p{
+    text-align: center;
+    padding-bottom: 10%;
+  }
 .work{
     text-align: center;
 }
+.bold{
+    font-weight: bold;
+}
 .info{
     display: none;
+
   }
 .details{
     display: none;
@@ -73,6 +81,7 @@
     background-size: cover;
     text-align: center;
     color: aliceblue;
+    padding: 4%;
 }
 .contacts input {
     margin-bottom: 3%;
@@ -88,9 +97,13 @@
   }
   .post{
       margin-bottom: 15px;
+      padding: 5px;
+      border-radius: 10px;
+      font-weight: bolder;
   }
   
 footer{
     text-align: center;
     margin-top: 5%;
+    font-weight: bolder;
 }
