@@ -11,4 +11,8 @@ $(document).ready(function(){
         $("#product-p").toggle();
         $("#product").toggle();
      });
+
+     $(".img_wrap").hover(function () {
+        $(this).find("div").toggleClass();
+      });
 });
