@@ -8,6 +8,17 @@
     margin-top: 6%;
     margin-bottom: 6%;
 }
+#mouse {
+  animation: bounce 3s infinite;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-50px);
+  }
+}
 .home {
     background-image: url("/images/h_img.jpg");
     background-size: cover;
@@ -33,23 +44,11 @@
 .work{
     text-align: center;
 }
-/* .work p{
-  text-align: justify;
-}
-.col-md-4{
-  text-align: justify;
-  width: auto;
-}
-.col-md-4 img{
-  display: block;
-  margin: auto;
-} */
 .bold{
     font-weight: bold;
 }
 .info{
     display: none;
-
   }
 .details{
     display: none;
