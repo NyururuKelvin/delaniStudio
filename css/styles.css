@@ -33,6 +33,17 @@
 .work{
     text-align: center;
 }
+/* .work p{
+  text-align: justify;
+}
+.col-md-4{
+  text-align: justify;
+  width: auto;
+}
+.col-md-4 img{
+  display: block;
+  margin: auto;
+} */
 .bold{
     font-weight: bold;
 }
