@@ -83,7 +83,7 @@
   .img_description_show {
     visibility: visible;
     opacity: 1;
-    background-color: rgba(248, 245, 245, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
   }
 .contacts{
     background-image: url("../images/c_image.jpg");
